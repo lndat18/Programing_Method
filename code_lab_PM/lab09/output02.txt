@@ -1,0 +1,5 @@
+"hello" length: 5
+"good morning" length: 12
+"good afternoon" length: 14
+"good evening" length: 12
+"goodbye" length: 7

@@ -4,16 +4,16 @@ int main(){
     int n;
     scanf("%d", &n);
 
-    int sum = 1;
+    int product = 1;
     int temp = n;
 
     while (n > 10){
-        sum *= n % 10;
+        product *= n % 10;
         n /= 10;
     }
     
-    sum *= n;
-    printf("sum all digit of %d: %d",temp, sum);
+    product *= n;
+    printf("product all digit of %d: %d",temp, product);
     
     return 0;
 }

@@ -13,7 +13,7 @@ int main(){
     }
     
     count++;
-    printf("sum all digit of %d: %d",temp, count);
+    printf("number of digit of %d: %d",temp, count);
     
     return 0;
 }
